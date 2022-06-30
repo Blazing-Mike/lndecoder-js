@@ -108,7 +108,7 @@ const httpClient = (body) => {
     headers: {
       Accept: "application/json",
       "Content-Type": "application/json",
-      Authorization: "Bearer " + API_KEY,
+      Authorization: "Bearer sk.9683282.a9e5417b0b61f6c61cfbfb9bd1b5466d",
     },
     body: body,
   };
