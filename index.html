@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="big-heading">Decode Lightning Network request</h1>
+      <h2 class="heading-txt">Lightning address, lnurl and bolt11 </h2>
+    </header>
+
+    <div class="container">
+      <input  class="ln-input"/>
+      <button type="submit" class="decode-button" value="decode">decode</button>
+    </div>
+
+    <div class="decoded-result">
+      <div class="ln-output">
+        <p class="message"></p>
+        <p class="callback">none</p>
+        <p class="status"></p>
+        <p class="tag"></p>
+        <p class="id"></p>
+        <p class="max-sendable"></p>
+        <p class="min-sendable"></p>
+        <p class="description"></p>
+        <p class="chain"></p>
+        <p class="amount"></p>
+        <p class="created-time"></p>
+        <p class="payee-pubkey"></p>
+        <p class="cltv-delta"></p>
+        <p class="invoice"></p>
+        <p class="destination"></p>
+        <p class="payment-hash"></p>
+        <p class="expiry-time"></p>
+       
+        
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
